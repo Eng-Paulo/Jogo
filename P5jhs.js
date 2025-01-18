@@ -252,12 +252,12 @@
                     fill(25, 0, 0);
                     text('O jogo possuí três fases: fácil, médio e avançado, a finalidade desse desafio é passar de fase, recolhendo  os alimentos saudáveis.',25, 90, 460,180); 
                     text('Use as setas do teclado para movimentar o personagem e coletar os alimentos saudáveis.',25, 220, 465,180); 
-                   textSize(15);
-                   fill(255, 255, 255);
-                   rect(16, 455,80, 25,15);
-                   fill(255, 0, 0);
-                   textAlign(CENTER);
-                   text("Voltar", 55, 473);
+                    textSize(15);
+                    fill(255, 255, 255);
+                    rect(16, 455,80, 25,15);
+                    fill(255, 0, 0);
+                    textAlign(CENTER);
+                    text("Voltar", 55, 473);
               
                 }  
                    
@@ -652,7 +652,7 @@
                 }
                 
                 if (mouseX > 16 && mouseX < 96 && mouseY > 455 && mouseY < 480) {
-                    console.log("Clicou no voltar");
+                    console.log("Clicou em voltar");
                     tela = 0;
                   
                 } 
